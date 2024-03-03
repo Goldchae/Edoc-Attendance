@@ -1,0 +1,59 @@
+.feedback {
+  color: white;
+  font-size: 5vh;
+}
+
+.feed {
+  color: white;
+  font-size: 4vh;
+}
+
+.outer {
+  width: 100vw;
+  height: 100vh;
+  background-image: url('./image/backg.jpeg');
+  background-size: cover;
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+}
+
+#msg {
+  width: 30vh;
+  height: 10vh;
+  background-color: #006400;
+  border: 4px solid white;
+  border-radius: 20px;
+  font-size: 15px;
+  color: white;
+}
+
+#btn {
+  width: 10vh;
+  height: 11vh;
+  background-color: white;
+  border: 4px solid #006400;
+  border-radius: 20px;
+  font-size: 15px;
+  color: #006400;
+
+}
+
+#checking {
+  width: 30vh;
+  height: 11vh;
+  background-color: white;
+  border: 4px solid #006400;
+  border-radius: 50px;
+  font-size: 20px;
+  color: #006400;
+  display: none;
+}
+
+body {
+  overflow: hidden;
+}
+
+body * {
+  touch-action: none;
+}
